@@ -3,8 +3,60 @@
 </script>
 
 <template>
-  
+    <div class="block_dc">
+        <div class="container d-flex justify-content-between">
+            <div class="footer_links">
+                <div class="container text-center">
+                    <div class="row text-white text-start py-4 mb-3">
+                        <div class="col minwidth200">
+                            <h5 class="my-3">DC COMICS</h5>
+                            <ul class="m-0 p-0 footer-ul">
+                                <li>Characters</li>
+                                <li>Comics</li>
+                                <li>Movies</li>
+                                <li>Tv</li>
+                                <li>Games</li>
+                                <li>Videos</li>
+                                <li>News</li>
+                            </ul>
+                            <h5 class="my-3">Shop</h5>
+                            <ul class="m-0 p-0 footer-ul">
+                                <li>Shop DC</li>
+                                <li>Shop DC Collectibles</li>
+                            </ul>
+                        </div>
+                        <div class="col minwidth200">
+                            <h5 class="my-3">DC</h5>
+                            <ul class="m-0 p-0 footer-ul">
+                                <li>Terms of use</li>
+                                <li>Privacy policy (new)</li>
+                                <li>Ad choise</li>
+                                <li>Advertising</li>
+                                <li>Jobs</li>
+                                <li>Subscription</li>
+                                <li>Talent workshop</li>
+                                <li>CPSC Certificates</li>
+                                <li>Rating</li>
+                                <li>Shop help</li>
+                                <li>Contact us</li>
+                            </ul>
+                        </div>
+                        <div class="col minwidth200">
+                            <h5 class="my-3">SITES</h5>
+                            <ul class="m-0 p-0 footer-ul">
+                                <li>DC</li>
+                                <li>MAD MAGAZINE</li>
+                                <li>DC Kids</li>
+                                <li>DC Univers</li>
+                                <li>DC Power Visa</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_image"></div>
+        </div>
+    </div>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>

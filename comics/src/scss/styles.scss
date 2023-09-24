@@ -1,14 +1,17 @@
 @use '../../node_modules/bootstrap/scss/bootstrap.scss' as *;
-@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Roboto&family=Roboto+Serif:opsz@8..144&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed&display=swap');
 
 body {
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Encode Sans Condensed', sans-serif;
 }
 
 .custom-li {
     cursor: pointer;
     border-bottom: 4px solid white;
     font-size: 13px;
+    height: 112px;
+    display: flex;
+    align-items: center;
 
     &:hover {
         color: #0282f9;
@@ -24,4 +27,40 @@ body {
 .content {
     color: white;
     font-size: 23px;
+}
+
+.block_menu {
+    background-color: #0282f9;
+}
+
+.tag-img {
+    width: 20%;
+    height: 55px
+}
+
+.block_dc {
+    width: 100%;
+    background-image: url(src/assets/img/footer-bg.jpg);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.footer-ul li {
+    color: rgb(159, 159, 159);
+    font-size: 13px;
+}
+
+.minwidth200 {
+    min-width: 150px;
+}
+
+.footer_image {
+    width: 45%;
+    height: 360px;
+    background-image: url(src/assets/img/dc-logo-bg.png);
+    background-image: url(src/assets/img/dc-logo-bg.png);
+    background-position: center;
+    background-size: cover;
 }
