@@ -54,9 +54,10 @@ export default {
         </div>
     </div>
     <div class="card_comics">
-        <div class="container d-flex align-items-center flex-wrap py-5">
-            <cardElement v-for="element in cards" class="card_element" :src="element.thumb" />
+        <div class="container d-flex flex-wrap py-5">
+            <cardElement v-for="element in cards" class="card_element" :thumb="element.thumb" :title="element.series" />
         </div>
+        <button class="btn btn-primary">LOAD MORE</button>
     </div>
 </template>
 
