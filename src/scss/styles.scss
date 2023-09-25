@@ -46,6 +46,10 @@ body {
     height: 55px
 }
 
+.card_comics {
+    background-color: #1c1c1c;
+}
+
 .block_dc {
     width: 100%;
     background-image: url(src/assets/img/footer-bg.jpg);
@@ -99,5 +103,13 @@ ul {
             margin-right: 24px;
             margin-top: 12px;
         }
+    }
+}
+
+.card_element {
+    width: calc(100% / 6);
+
+    .img_card {
+        width: 100%;
     }
 }

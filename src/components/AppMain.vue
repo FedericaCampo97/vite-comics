@@ -1,4 +1,7 @@
-<script setup>
+<script>
+import cards from '../js/arrayCards';
+import cardElement from './CardElement.vue';
+
 const arrayMain = [
     {
         name: 'DIGITAL COMICS',
@@ -21,6 +24,18 @@ const arrayMain = [
         image: 'src/assets/img/buy-dc-power-visa.svg'
     },
 ]
+export default {
+    name: 'AppMain',
+    components: {
+        cardElement
+    },
+    data() {
+        return {
+            arrayMain,
+            cards,
+        }
+    }
+}
 </script>
 
 <template>
@@ -36,6 +51,11 @@ const arrayMain = [
                     </span>
                 </li>
             </ul>
+        </div>
+    </div>
+    <div class="card_comics">
+        <div class="container d-flex align-items-center flex-wrap py-5">
+            <cardElement v-for="element in cards" class="card_element" :src="element.thumb" />
         </div>
     </div>
 </template>
