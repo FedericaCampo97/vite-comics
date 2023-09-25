@@ -20,6 +20,7 @@ body {
         span {
             color: #0282f9 !important;
 
+
         }
     }
 }
@@ -84,6 +85,12 @@ ul {
             font-size: 20px;
         }
 
-        .icons {}
+        .follow_us {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 24px;
+            margin-top: 12px;
+        }
     }
 }

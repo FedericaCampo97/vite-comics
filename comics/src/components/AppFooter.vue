@@ -64,12 +64,15 @@
 
             </div>
             <div class="follow d-flex">
-                <div>
+                <div class="follow_us">
                     <p><strong>FOLLOW US</strong></p>
                 </div>
-                <div class="icons d-flex">
-
-
+                <div class="icons d-flex align-items-center">
+                    <img src="../assets/img/footer-facebook.png" alt="" class="me-3">
+                    <img src="../assets/img/footer-twitter.png" alt="" class="me-3">
+                    <img src="../assets/img/footer-youtube.png" alt="" class="me-3">
+                    <img src="../assets/img/footer-youtube.png" alt="" class="me-3">
+                    <img src="../assets/img/footer-periscope.png" alt="">
                 </div>
             </div>
         </div>
