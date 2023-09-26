@@ -114,3 +114,19 @@ ul {
         width: 100%;
     }
 }
+
+.current_button {
+    background-color: #0282f9;
+    border: none;
+    font-size: 21px;
+    color: white;
+    padding: 7px 40px;
+    position: relative;
+    top: 377px;
+    left: 320px;
+}
+
+.custom_button {
+    border-radius: 0 !important;
+    padding: 7px 64px;
+}
